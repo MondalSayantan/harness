@@ -1,0 +1,22 @@
+pipeline:
+  name: new-test
+  identifier: newtest
+  projectIdentifier: DoNotDelete_Sayantan
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  tags: {}
+  stages:
+    - stage:
+        name: customStagex
+        identifier: customStage
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Wait
+                  name: Wait_1
+                  identifier: Wait_1
+                  spec:
+                    duration: 10s
+        tags: {}
