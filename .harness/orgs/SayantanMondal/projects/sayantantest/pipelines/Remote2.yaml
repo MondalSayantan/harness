@@ -1,0 +1,30 @@
+pipeline:
+  name: Remote2
+  identifier: Remote2
+  projectIdentifier: sayantantest
+  orgIdentifier: SayantanMondal
+  tags: {}
+  stages:
+    - stage:
+        name: cust
+        identifier: cust
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: <+input>
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
+        tags: {}
