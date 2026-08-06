@@ -1,0 +1,33 @@
+template:
+  name: Remote Temp
+  identifier: Remote_Temp
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: DoNotDelete_Sayantan
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cust
+          identifier: cust
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    type: ShellScript
+                    name: ShellScript_1
+                    identifier: ShellScript_1
+                    spec:
+                      shell: Bash
+                      executionTarget: {}
+                      source:
+                        type: Inline
+                        spec:
+                          script: echo "Hello"
+                      environmentVariables: []
+                      outputVariables: []
+                    timeout: 10m
+          tags: {}
