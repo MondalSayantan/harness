@@ -1,6 +1,7 @@
 pipeline:
   name: pipe38271_p1
   identifier: pipe38271_p1
+  description: feat2
   projectIdentifier: DoNotDelete_Sayantan
   orgIdentifier: Ng_Pipelines_K8s_Organisations
   tags: {}
