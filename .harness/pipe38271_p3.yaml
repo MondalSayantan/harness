@@ -1,0 +1,14 @@
+pipeline:
+  name: pipe38271_p3
+  identifier: pipe38271_p3
+  projectIdentifier: DoNotDelete_Sayantan
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        template:
+          templateRef: pipe38271_stage_tpl
+          versionLabel: v1
+          gitBranch: main
