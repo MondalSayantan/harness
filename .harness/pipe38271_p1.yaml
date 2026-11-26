@@ -18,5 +18,5 @@ pipeline:
         tags: {}
         template:
           templateRef: pipe38271_stage_tpl
-          versionLabel: v1
+          versionLabel: v2
   description: saved-S1h_partial
