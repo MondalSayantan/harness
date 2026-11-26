@@ -12,4 +12,11 @@ pipeline:
           gitBranch: main
           templateRef: pipe38271_stage_tpl
           versionLabel: v1
+    - stage:
+        name: s2
+        identifier: s2
+        tags: {}
+        template:
+          templateRef: pipe38271_stage_tpl
+          versionLabel: v1
   description: saved-S1h_partial
