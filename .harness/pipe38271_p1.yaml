@@ -9,7 +9,6 @@ pipeline:
         name: s1
         identifier: s1
         template:
-          gitBranch: main
           templateRef: pipe38271_stage_tpl
           versionLabel: v1
     - stage:
